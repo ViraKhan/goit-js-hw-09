@@ -53,7 +53,7 @@ const gallery = document.querySelector(".gallery");
 
 function createMarkup(arr) {
     return arr.map(item => `
-    <li class="gallery-item" datsa-id="${item.original}">
+    <li class="gallery-item" data-id="${item.original}">
     <a class="gallery-link" href="${item.original}">
     <img
       class="gallery-image"
